@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내부 스크립트 - 강민서</title>
+</head>
+<body>
+    <h1>새로고침 하시오.</h1>
+    <script>
+        function random(number) {
+            //랜덤함수
+            return Math.floor(Math.random()* number);
+        }
+
+        function bgChange() {
+            //상수형 변수 const
+            const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+            document.body.style.backgroundColor = rndCol;
+        }
+
+        bgChange(); //함수 호출
+        
+    </script>
+</body>
+</html>

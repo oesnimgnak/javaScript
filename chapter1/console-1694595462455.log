@@ -1,0 +1,58 @@
+10+20
+30
+console.log("안녕하세요?")
+VM155:1 안녕하세요?
+undefined
+alert(내용)
+VM202:1 Uncaught ReferenceError: 내용 is not defined
+    at <anonymous>:1:7
+(anonymous) @ VM202:1
+alert("안녕하세요)
+VM220:1 Uncaught SyntaxError: Invalid or unexpected token
+num = 10
+10
+alert(num)
+undefined
+confirm("종료하시겠습니까?")
+true
+prompt("종료하시겠습니까?(예/아니요)","예")
+'예'
+document.write("안녕하세요")
+undefined
+name='강민서'
+'강민서'
+document.write("안녕하세요"+name+"입니다")
+undefined
+document.wri
+undefined
+document.write(`안녕하세요. ${name} 입니다.`)
+undefined
+let id = Symbol()
+undefined
+const member = {
+    name : "강민서"
+    [id] : 202095103
+VM1118:3 Uncaught SyntaxError: Unexpected token ':'
+const member = {
+    name : "강민서"
+    [id] : 202095103}
+VM1123:3 Uncaught SyntaxError: Unexpected token ':'
+const member = {
+    name : "강민서"
+    [id] : 202095103
+}
+VM1130:3 Uncaught SyntaxError: Unexpected token ':'
+const member = {
+    name:"강민서"
+    [id]:202095103
+}
+VM1138:3 Uncaught SyntaxError: Unexpected token ':'
+const member = {
+    name:"강민서",
+    [id]:202095103
+}
+undefined
+member
+{name: '강민서', Symbol(): 202095103}
+member[id]
+202095103
